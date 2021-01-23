@@ -2,7 +2,7 @@
 
 .banner { background: #f1e4e6; min-height: 764px; display: flex; align-items: stretch; margin-bottom: 65px; }
 
-.banner__img { flex: 1; background-image: url("../image/brand_photo.png"); background-repeat: no-repeat; background-position: center bottom; background-size: auto 100%; }
+.banner__img { flex: 1; background-image: url("../img/brand_photo.png"); background-repeat: no-repeat; background-position: center bottom; background-size: auto 100%; }
 
 .banner__txtBox { flex: 1; display: flex; flex-direction: column; justify-content: flex-start; }
 
@@ -30,8 +30,6 @@
 
 .container { max-width: 1140px; margin: 0 auto; }
 
-.countItems { background: #f16d7f; position: absolute; top: -30%; right: -30%; border-radius: 50%; font-size: 12px; line-height: 14px; color: #FFF; padding: 2px 6px 3px 6px; }
-
 .darkBox { position: relative; }
 
 .dark { position: absolute; width: 100%; height: 100%; top: 0; background: rgba(33, 22, 22, 0.7); }
@@ -42,7 +40,21 @@
 
 .top__brand { margin-right: 41px; }
 
-.top__img { margin-right: 33px; display: block; }
+.top__brand { width: 44px; height: 38px; background-image: url("../img/brand_ico.png"); background-repeat: no-repeat; background-position: center; }
+
+.top__ico { background-repeat: no-repeat; background-position: center; background-size: contain; background-color: transparent; cursor: pointer; margin-right: 33px; display: block; width: 26px; height: 26px; }
+
+.top__ico_btn { border: none; outline: none; display: block; }
+
+.top__basket { background-image: url("../img/basket_ico.png"); position: relative; }
+
+.basket-items { background: #f16d7f; position: absolute; top: -30%; right: -30%; border-radius: 50%; font-size: 12px; line-height: 14px; color: #FFF; padding: 2px 6px 3px 6px; }
+
+.top__menu-btn { background-image: url("../img/menu_ico.png"); }
+
+.top__search { background-image: url("../img/lens_ico.png"); }
+
+.top__login { background-image: url("../img/user_ico.png"); }
 
 .top__img_last { margin-right: 0; }
 
@@ -57,3 +69,5 @@
 .txtPhoto { text-align: center; text-transform: uppercase; font-size: 16px; font-weight: 400; color: #fff; }
 
 .txtPhoto_color { font-size: 24px; font-weight: 700; color: #f16d7f; }
+
+.visually-hidden { position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); padding: 0 !important; border: 0 !important; height: 1px !important; width: 1px !important; overflow: hidden; }

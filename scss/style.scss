@@ -13,7 +13,7 @@
 
 .banner__img{
 	flex: 1;
-	background-image: url("../image/brand_photo.png");
+	background-image: url("../img/brand_photo.png");
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: auto 100%;
@@ -88,18 +88,6 @@
 	margin: 0 auto;
 }
 
-.countItems{
-	background: #f16d7f;
-	position: absolute;
-	top: -30%;
-	right: -30%;
-	border-radius: 50%;
-	font-size: 12px;
-	line-height: 14px;
-	color: #FFF;
-	padding: 2px 6px 3px 6px;
-}
-
 .darkBox{
 	position: relative;
 }
@@ -125,9 +113,59 @@
 	margin-right: 41px;
 }
 
-.top__img{
+.top__brand{
+	width: 44px;
+	height: 38px;
+	background-image: url("../img/brand_ico.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.top__ico{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-color: transparent;
+	cursor: pointer;
 	margin-right: 33px;
 	display: block;
+	width: 26px;
+	height: 26px;
+}
+
+.top__ico_btn{
+	border: none;
+    outline: none;
+    display: block;
+}
+
+.top__basket{
+	background-image: url("../img/basket_ico.png");
+	position: relative;
+}
+
+.basket-items{
+	background: #f16d7f;
+	position: absolute;
+	top: -30%;
+	right: -30%;
+	border-radius: 50%;
+	font-size: 12px;
+	line-height: 14px;
+	color: #FFF;
+	padding: 2px 6px 3px 6px;
+}
+
+.top__menu-btn{
+	background-image: url("../img/menu_ico.png");
+}
+
+.top__search{
+	background-image: url("../img/lens_ico.png");
+}
+
+.top__login{
+	background-image: url("../img/user_ico.png");
 }
 
 .top__img_last{
@@ -166,4 +204,15 @@
 	font-size: 24px;
 	font-weight: 700;
 	color: #f16d7f;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
 }
