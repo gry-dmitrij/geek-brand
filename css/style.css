@@ -40,7 +40,7 @@
 
 .top__img_last { margin-right: 0; }
 
-.top { background: #222; padding: 18px 20px; }
+.top { background: #222; padding: 18px 20px; position: relative; }
 
 .top__brand { margin-right: 41px; }
 
@@ -55,6 +55,27 @@
 .basket-items { background: #f16d7f; position: absolute; top: -30%; right: -30%; border-radius: 50%; font-size: 12px; line-height: 14px; color: #FFF; padding: 2px 6px 3px 6px; }
 
 .visually-hidden { position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); padding: 0 !important; border: 0 !important; height: 1px !important; width: 1px !important; overflow: hidden; }
+
+/*=== top menu ===*/
+.menu-box { width: 100%; min-height: 764px; position: absolute; top: 100%; left: 0; background: rgba(0, 0, 0, 0.5); display: none; }
+
+.top__menu-btn:hover + .menu-box, .menu-box:hover { display: flex; justify-content: flex-end; }
+
+.menu__sidebar { position: relative; min-height: 764px; min-width: 232px; background: #fff; box-sizing: border-box; padding: 37px 33px; }
+
+.menu__close-btn { width: 12px; height: 12px; background: url("../img/close_ico.png") center/contain no-repeat; position: absolute; right: 16px; top: 16px; outline: none; border: none; }
+
+.menu__title { font-size: 14px; line-height: 17px; font-weight: 700; text-transform: uppercase; color: #000; margin-bottom: 24px; }
+
+.menu__list { list-style: none; }
+
+.menu__list > li, .menu__list > li > * { font-size: 14px; line-height: 17px; color: #6f6e6e; text-decoration: none; text-transform: none; margin-bottom: 11px; }
+
+.menu__list > li:first-child { margin-top: 12px; }
+
+.menu__list_main > li, .menu__list_main > li > * { color: #f16d7f; text-transform: uppercase; margin-bottom: 20px; }
+
+.menu__list_sub { margin-left: 21px; }
 
 /*=== banner ===*/
 .banner { background: #f1e4e6; margin-bottom: 65px; }
@@ -119,12 +140,24 @@
 
 .product-card__price { margin-left: 18px; font-size: 16px; line-height: 19px; color: #f16d7f; }
 
+.product-hide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(58, 56, 56, 0.86); display: none; }
+
+.product-card__img-box:hover .product-hide { display: flex; justify-content: center; align-items: center; }
+
+.product__add-btn { font-size: 14px; line-height: 17px; color: #fff; border: 1px solid #FFFFFF; background: transparent; outline: none; padding: 10px 13px 8px; display: flex; justify-content: center; align-items: center; }
+
+.product__add-btn:before { content: ''; display: block; width: 26px; height: 24px; background: url("../img/basket_ico.png") center/contain no-repeat; margin-right: 11px; }
+
+.product__add-btn:hover { background: #f16d7f; border: 1px solid #f16d7f; }
+
 .product__btn { text-transform: capitalize; margin: 18px auto 0; padding: 14px 38px; font-size: 16px; line-height: 19px; background: transparent; color: #F26376; border: 1px solid #FF6A6A; outline: none; }
+
+.product__btn:hover { background: #F16D7F; color: #FFFFFF; }
 
 /*=== footer ===*/
 .footer { width: 100%; background: #222224; }
 
-.footer__card-box { padding: 104px 0; }
+.footer__card-box { padding: 104px 20px; }
 
 .footer__card { width: 32%; }
 
@@ -159,3 +192,31 @@
 .subscribe__email { box-sizing: border-box; width: 256px; outline: none; display: block; font-size: 14px; line-height: 17px; padding: 15px 22px; background: #e1e1e1; border: none; border-radius: 10px 0 0 10px; }
 
 .subscribe__btn { outline: none; border: none; background: #f16d7f; color: #FFFFFF; font-size: 14px; line-height: 17px; padding: 15px 22px; border-radius: 0 10px 10px 0; }
+
+.subscribe__btn:hover { background: #E05C6E; }
+
+.footer__bottom { padding: 24px 20px; }
+
+.right-txt { font-size: 16px; line-height: 19px; color: #FBFBFB; text-transform: capitalize; }
+
+.social-link { width: 32px; height: 32px; display: block; margin-right: 7px; text-decoration: none; background: center no-repeat #fff; }
+
+.social-link:hover { background-color: #F16D7F; }
+
+.social-link:last-child { margin-right: 0; }
+
+.facebook-link { background-image: url("../img/social/facebook.png"); }
+
+.facebook-link:hover { background-image: url("../img/social/facebook_light.png"); }
+
+.instagram-link { background-image: url("../img/social/instagram.png"); }
+
+.instagram-link:hover { background-image: url("../img/social/instagram_light.png"); }
+
+.pinterest-link { background-image: url("../img/social/pinterest.png"); }
+
+.pinterest-link:hover { background-image: url("../img/social/pinterest_light.png"); }
+
+.twitter-link { background-image: url("../img/social/twitter.png"); }
+
+.twitter-link:hover { background-image: url("../img/social/twitter_light.png"); }
