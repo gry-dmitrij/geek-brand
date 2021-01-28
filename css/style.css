@@ -32,11 +32,7 @@
 .box_bottom { align-items: flex-end; }
 
 /* === top ===*/
-.top__menu-btn { background-image: url("../img/menu_ico.png"); }
-
-.top__search { background-image: url("../img/lens_ico.png"); }
-
-.top__login { background-image: url("../img/user_ico.png"); }
+.top__menu-chb { display: none; }
 
 .top__img_last { margin-right: 0; }
 
@@ -46,24 +42,26 @@
 
 .top__brand { width: 44px; height: 38px; background-image: url("../img/brand_ico.png"); background-repeat: no-repeat; background-position: center; }
 
-.top__ico { background-repeat: no-repeat; background-position: center; background-size: contain; background-color: transparent; cursor: pointer; margin-right: 33px; display: block; width: 26px; height: 26px; }
+.top__ico { background-repeat: no-repeat; background-position: center; background-size: contain; background-color: transparent; cursor: pointer; margin-right: 33px; display: block; min-width: 23px; min-height: 23px; fill: #fff; position: relative; }
 
-.top__ico_btn { border: none; outline: none; display: block; }
+.top__ico:last-child { margin-right: 0; }
 
-.top__basket { background-image: url("../img/basket_ico.png"); position: relative; }
+.top__ico_btn { border: none; outline: none; }
 
 .basket-items { background: #f16d7f; position: absolute; top: -30%; right: -30%; border-radius: 50%; font-size: 12px; line-height: 14px; color: #FFF; padding: 2px 6px 3px 6px; }
 
 .visually-hidden { position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); padding: 0 !important; border: 0 !important; height: 1px !important; width: 1px !important; overflow: hidden; }
 
 /*=== top menu ===*/
-.menu-box { width: 100%; min-height: 764px; position: absolute; top: 100%; left: 0; background: rgba(0, 0, 0, 0.5); display: none; }
+.menu-box { width: 100%; min-height: 764px; position: absolute; top: 100%; left: 0; background: rgba(0, 0, 0, 0.5); display: none; z-index: 3; }
 
-.top__menu-btn:hover + .menu-box, .menu-box:hover { display: flex; justify-content: flex-end; }
+.top__menu-chb:checked ~ .menu-box { display: flex; justify-content: flex-end; }
 
 .menu__sidebar { position: relative; min-height: 764px; min-width: 232px; background: #fff; box-sizing: border-box; padding: 37px 33px; }
 
 .menu__close-btn { width: 12px; height: 12px; background: url("../img/close_ico.png") center/contain no-repeat; position: absolute; right: 16px; top: 16px; outline: none; border: none; }
+
+.menu__close-btn:hover { background-color: #f16d7f; }
 
 .menu__title { font-size: 14px; line-height: 17px; font-weight: 700; text-transform: uppercase; color: #000; margin-bottom: 24px; }
 
@@ -80,13 +78,13 @@
 /*=== banner ===*/
 .banner { background: #f1e4e6; margin-bottom: 65px; }
 
-.banner__box { display: flex; align-items: stretch; min-height: 764px; }
+.banner__box { display: flex; align-items: stretch; min-height: 764px; justify-content: flex-end; position: relative; }
 
-.banner__img { flex: 1; background-image: url("../img/brand_photo.png"); background-repeat: no-repeat; background-position: center bottom; background-size: auto 100%; }
+.banner__img { width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-image: url(../img/brand_photo.png); background-repeat: no-repeat; background-position: -200px bottom; background-size: auto 100%; }
 
-.banner__txt-box { flex: 1; display: flex; flex-direction: column; justify-content: flex-start; }
+.banner__txt-box { width: 50%; min-width: 365px; display: flex; flex-direction: column; justify-content: flex-start; z-index: 1; }
 
-.banner__text { display: flex; flex-direction: column; justify-content: flex-end; flex-basis: 50%; padding-left: 63px; }
+.banner__text { display: flex; flex-direction: column; justify-content: flex-end; padding-left: 63px; height: 50%; }
 
 .banner__txt-decoration { padding-left: 16px; border-left: 12px solid #f16d7f; }
 
@@ -154,24 +152,22 @@
 
 .product__btn:hover { background: #F16D7F; color: #FFFFFF; }
 
+.product__btn:active { background: transparent; color: #f26376; }
+
 /*=== footer ===*/
 .footer { width: 100%; background: #222224; }
 
 .footer__card-box { padding: 104px 20px; }
 
-.footer__card { width: 32%; }
+.footer__card { width: 32%; display: flex; flex-direction: column; }
+
+.footer__thumb { margin: 0 auto 23px; fill: #F16D7F; }
 
 .footer__txt { color: #FBFBFB; font-weight: 400; text-align: center; }
 
 .footer__txt_name { font-size: 19.96px; line-height: 24px; margin-bottom: 16px; }
 
 .footer__txt_desc { font-size: 14px; line-height: 17px; font-weight: 300; }
-
-.footer__delivery:before { content: ""; width: 45px; height: 32px; margin: 0 auto 28px; display: block; background: url("../img/delivery_ico.png") center/contain no-repeat; }
-
-.footer__discount:before { content: ''; width: 40px; height: 40px; margin: 0 auto 23px; display: block; background: url("../img/discount_ico.png") center/contain no-repeat; }
-
-.footer__quality:before { content: ''; width: 47px; height: 35px; margin: 0 auto 25px; display: block; background: url("../img/quality_ico.png") center/contain no-repeat; }
 
 .footer__subscribe-box { background: url("../img/subscribe_bg.jpg") center/cover no-repeat; position: relative; }
 
@@ -195,28 +191,16 @@
 
 .subscribe__btn:hover { background: #E05C6E; }
 
+.subscribe__btn:active { background: #f16d7f; }
+
 .footer__bottom { padding: 24px 20px; }
 
 .right-txt { font-size: 16px; line-height: 19px; color: #FBFBFB; text-transform: capitalize; }
 
-.social-link { width: 32px; height: 32px; display: block; margin-right: 7px; text-decoration: none; background: center no-repeat #fff; }
+.social-link { width: 32px; height: 32px; display: flex; justify-content: center; align-items: center; margin-right: 7px; text-decoration: none; background-color: #fff; fill: #000; }
 
-.social-link:hover { background-color: #F16D7F; }
+.social-link:hover { background-color: #F16D7F; fill: #fff; }
+
+.social-link:active { background-color: #fff; fill: #000; }
 
 .social-link:last-child { margin-right: 0; }
-
-.facebook-link { background-image: url("../img/social/facebook.png"); }
-
-.facebook-link:hover { background-image: url("../img/social/facebook_light.png"); }
-
-.instagram-link { background-image: url("../img/social/instagram.png"); }
-
-.instagram-link:hover { background-image: url("../img/social/instagram_light.png"); }
-
-.pinterest-link { background-image: url("../img/social/pinterest.png"); }
-
-.pinterest-link:hover { background-image: url("../img/social/pinterest_light.png"); }
-
-.twitter-link { background-image: url("../img/social/twitter.png"); }
-
-.twitter-link:hover { background-image: url("../img/social/twitter_light.png"); }
