@@ -150,8 +150,15 @@
 	min-height: 23px;
 	fill: #fff;
 	position: relative;
+	border: 1px solid transparent;
+	padding: 3px;
+	border-radius: 3px;
 	&:active{
 		background: rgba(255, 255, 255, 0.5);
+		
+	}
+	&:hover{
+		border: 1px solid #fff;
 	}
 }
 
@@ -160,7 +167,7 @@
 }
 
 .top__ico_btn{
-	border: none;
+	// border: none;
     outline: none;
 }
 
