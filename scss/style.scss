@@ -155,7 +155,6 @@
 	border-radius: 3px;
 	&:active{
 		background: rgba(255, 255, 255, 0.5);
-		
 	}
 	&:hover{
 		border: 1px solid #fff;
@@ -167,7 +166,6 @@
 }
 
 .top__ico_btn{
-	// border: none;
     outline: none;
 }
 
@@ -583,23 +581,13 @@
 }
 
 .footer__subscribe-box{
-	background: url("../img/subscribe_bg.jpg") center / cover no-repeat;
-	position: relative;
-}
-
-.footer__subscribe-box:before{
-	content: '';
-	display: block;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(244, 244, 244, 0.7);
+	background: center / cover no-repeat;
+	background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url("../img/subscribe_bg.jpg");
 }
 
 .footer__subscribe-card{
 	display: block;
 	padding: 86px 0 126px;
-	z-index: 2;
 }
 
 .subscribe__quote{
