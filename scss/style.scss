@@ -150,6 +150,9 @@
 	min-height: 23px;
 	fill: #fff;
 	position: relative;
+	&:active{
+		background: rgba(255, 255, 255, 0.5);
+	}
 }
 
 .top__ico:last-child{
@@ -493,6 +496,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 	&:before{
 		content: '';
 		display: block;
@@ -504,6 +508,11 @@
 	&:hover{
 		background: #f16d7f;
 		border: 1px solid #f16d7f;
+	}
+	&:active{
+		background: transparent;
+		border: 1px solid #FFFFFF;
+
 	}
 }
 

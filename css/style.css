@@ -44,6 +44,8 @@
 
 .top__ico { background-repeat: no-repeat; background-position: center; background-size: contain; background-color: transparent; cursor: pointer; margin-right: 33px; display: block; min-width: 23px; min-height: 23px; fill: #fff; position: relative; }
 
+.top__ico:active { background: rgba(255, 255, 255, 0.5); }
+
 .top__ico:last-child { margin-right: 0; }
 
 .top__ico_btn { border: none; outline: none; }
@@ -142,11 +144,13 @@
 
 .product-card__img-box:hover .product-hide { display: flex; justify-content: center; align-items: center; }
 
-.product__add-btn { font-size: 14px; line-height: 17px; color: #fff; border: 1px solid #FFFFFF; background: transparent; outline: none; padding: 10px 13px 8px; display: flex; justify-content: center; align-items: center; }
+.product__add-btn { font-size: 14px; line-height: 17px; color: #fff; border: 1px solid #FFFFFF; background: transparent; outline: none; padding: 10px 13px 8px; display: flex; justify-content: center; align-items: center; cursor: pointer; }
 
 .product__add-btn:before { content: ''; display: block; width: 26px; height: 24px; background: url("../img/basket_ico.png") center/contain no-repeat; margin-right: 11px; }
 
 .product__add-btn:hover { background: #f16d7f; border: 1px solid #f16d7f; }
+
+.product__add-btn:active { background: transparent; border: 1px solid #FFFFFF; }
 
 .product__btn { text-transform: capitalize; margin: 18px auto 0; padding: 14px 38px; font-size: 16px; line-height: 19px; background: transparent; color: #F26376; border: 1px solid #FF6A6A; outline: none; }
 
