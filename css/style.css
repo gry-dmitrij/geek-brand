@@ -223,11 +223,19 @@
 
 .product__add-btn:hover { background: #f16d7f; border: 1px solid #f16d7f; }
 
-.product__add-btn:active { background: transparent; border: 1px solid #FFFFFF; }
+.product__add-btn:active { background: transparent; border: 1px solid #fff; }
 
 .product__add-btn_visible { border-color: #ff6a6a; color: #ef5b70; margin-top: 48px; }
 
-.product__add-btn_visible:before { background: url("../img/basket_ico_red.svg") center/contain no-repeat; }
+.product__add-btn_visible:before { background-image: url("../img/basket_ico_red.svg"); }
+
+.product__add-btn_visible:hover { color: #fff; }
+
+.product__add-btn_visible:hover:before { background-image: url("../img/basket_ico.svg"); }
+
+.product__add-btn_visible:active { color: #ef5b70; border: 1px solid #f16d7f; }
+
+.product__add-btn_visible:active:before { background-image: url("../img/basket_ico_red.svg"); }
 
 .product__btn { text-transform: capitalize; margin: 18px auto 0; padding: 14px 38px; font-size: 16px; line-height: 19px; background: transparent; color: #F26376; border: 1px solid #FF6A6A; outline: none; }
 
@@ -235,7 +243,7 @@
 
 .product__btn:active { background: transparent; color: #f26376; }
 
-.product__popup { display: flex; flex-direction: column; align-items: center; width: 100%; padding: 65px 0; border: 1px solid #EAEAEA; background-color: #fff; position: relative; top: -65px; }
+.product__popup { display: flex; flex-direction: column; align-items: center; box-sizing: border-box; width: 100%; padding: 65px 20px; border: 1px solid #EAEAEA; background-color: #fff; position: relative; top: -65px; }
 
 .popup__chapter-name { display: flex; flex-direction: column; align-items: center; font-weight: 300; color: #f16d7f; text-transform: uppercase; margin-bottom: 12px; }
 

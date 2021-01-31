@@ -718,7 +718,7 @@
 	}
 	&:active{
 		background: transparent;
-		border: 1px solid #FFFFFF;
+		border: 1px solid #fff;
 
 	}
 }
@@ -727,7 +727,20 @@
 	color: #ef5b70;
 	margin-top: 48px;
 	&:before{
-		background: url("../img/basket_ico_red.svg") center / contain no-repeat;
+		background-image: url("../img/basket_ico_red.svg");
+	}
+	&:hover{
+		color: #fff;
+		&:before{
+			background-image: url("../img/basket_ico.svg");
+		}
+	}
+	&:active{
+		color: #ef5b70;
+		border: 1px solid #f16d7f;
+		&:before{
+			background-image: url("../img/basket_ico_red.svg");
+		}
 	}
 }
 
@@ -755,8 +768,9 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	box-sizing: border-box;
 	width: 100%;
-	padding: 65px 0;
+	padding: 65px 20px;
 	border: 1px solid #EAEAEA;
 	background-color: #fff;
 	position: relative;
