@@ -111,7 +111,8 @@
 
 /*=== boxes ===*/
 .box_edge,
-.box_center{
+.box_center,
+.box_column{
 	display: flex;
 }
 
@@ -126,6 +127,12 @@
 
 .box_bottom{
 	align-items: flex-end;
+}
+
+.box_column{
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: column;
 }
 
 /* === top ===*/
@@ -1039,19 +1046,15 @@
     box-sizing: border-box;
 }
 
-.cart__product-box{
-	flex: 2;
-}
-
 .cart__info-box{
-	flex: 1;
+	width: 32%;
 }
 
 .cart__card-box{
 	display: flex;
     justify-content: space-between;
     flex-flow: wrap;
-    flex: 2;
+    width: 57%;
 }
 
 .cart__card{
@@ -1110,6 +1113,7 @@
 	background-color: transparent;
 	color: #000;
 	outline: none;
+	margin-bottom: 15px;
 	&:hover{
 		background-color: #f16d7f;
 		border-color: #f16d7f;
@@ -1121,4 +1125,103 @@
 		color: #000;
 	}
 
+}
+
+.cart__field-name{
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 300;
+	color: #222;
+	display: block;
+	text-transform: uppercase;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.cart__edt{
+	width: 100%;
+	padding: 13px 17px 16px;
+	margin-bottom: 21px;
+	color: #222;
+	box-sizing: border-box;
+}
+
+input.cart__edt:-ms-input-placeholder{
+	color: #b1b1b1;
+}
+
+input.cart__edt::placeholder{
+	color: #b1b1b1;
+}
+
+.cart__price-box{
+	width: 100%;
+	padding: 40px 44px;
+	box-sizing: border-box;
+	background-color: #f5f3f3;
+	margin-top: 57px;
+}
+
+.price-box__total{
+	display: block;
+	font-weight: 300;
+	text-align: right;
+	text-transform: uppercase;
+	padding-right: 50px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.price-box__total_sub{
+	font-size: 11px;
+	line-height: 13px;
+	color: #4a4a4a;
+	margin-bottom: 12px;
+}
+
+.price-box__total_grand{
+	font-size: 16px;
+	line-height: 19px;
+	color: #222;
+	margin-bottom: 21px;
+}
+
+.price-box__total_price{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.price-box__total_color{
+	color: #f16d7f;
+}
+
+.price-box__hr{
+	border: none;
+	border-bottom: 1px solid #e2e2e2;
+	background: #e2e2e2;
+	width: 100%;
+	margin-bottom: 17px;
+}
+
+.price-box__btn{
+	outline: none;
+	width: 100%;
+	padding: 15px 0;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+	white-space: normal;
+	text-align: center;
+	background-color: #f16d7f;
+	border: none;
+	box-sizing: border-box;
+	&:hover{
+		background: #E05C6E;
+	}
+	&:active{
+		background: #f16d7f;
+	}
 }

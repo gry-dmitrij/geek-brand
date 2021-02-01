@@ -120,7 +120,19 @@
 					<button class="cart__card-btn">clear shopping cart</button>
 					<button class="cart__card-btn">continue shopping</button>
 				</div>
-				<div class="cart__info-box"></div>
+				<form class="cart__info-box box_column" action="#">
+					<span class="cart__field-name">shipping adress</span>
+					<input type="text" class="cart__edt" placeholder="Bangladesh" required>
+					<input type="text" class="cart__edt" placeholder="State" required>
+					<input type="text" class="cart__edt" placeholder="Postcode/Zip">
+					<button class="cart__card-btn">get a quote</button>
+					<div class="cart__price-box">
+						<span class="price-box__total price-box__total_sub">sub total <span class="price-box__total_price">$900</span></span>
+						<span class="price-box__total price-box__total_grand">GRAND TOTAL <span class="price-box__total_color price-box__total_price">$900</span></span>
+						<hr class="price-box__hr">
+						<input type="submit" class="price-box__btn" value="proceed to checkout">
+					</div>
+				</form>
 			</section>
 		</div>
 	</main>
