@@ -59,7 +59,7 @@
 
 .top__ico_btn { outline: none; }
 
-.basket-items { background: #f16d7f; position: absolute; top: -30%; right: -30%; border-radius: 50%; font-size: 12px; line-height: 14px; color: #FFF; padding: 2px 6px 3px 6px; }
+.basket-items { background: #f16d7f; position: absolute; top: -30%; right: -30%; border-radius: 50%; font-size: 12px; line-height: 14px; color: #fff; padding: 2px 6px 3px 6px; }
 
 .visually-hidden { position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); padding: 0 !important; border: 0 !important; height: 1px !important; width: 1px !important; overflow: hidden; }
 
@@ -129,7 +129,7 @@
 /*=== filters ===*/
 .filter-box { display: flex; align-items: center; justify-content: center; position: relative; margin-top: 50px; }
 
-.filter-nav { position: absolute; left: -13px; top: -16px; min-width: 360px; background: #FFFFFF; padding: 13px 16px; box-sizing: border-box; }
+.filter-nav { position: absolute; left: -13px; top: -16px; min-width: 360px; background: #ffffff; padding: 13px 16px; box-sizing: border-box; }
 
 .filter-nav:hover { box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21); z-index: 1; }
 
@@ -289,9 +289,9 @@
 
 .footer__card { width: 32%; display: flex; flex-direction: column; }
 
-.footer__thumb { margin: 0 auto 23px; fill: #F16D7F; }
+.footer__thumb { margin: 0 auto 23px; fill: #f16d7f; }
 
-.footer__txt { color: #FBFBFB; font-weight: 400; text-align: center; }
+.footer__txt { color: #fbfbfb; font-weight: 400; text-align: center; }
 
 .footer__txt_name { font-size: 19.96px; line-height: 24px; margin-bottom: 16px; }
 
@@ -313,9 +313,9 @@
 
 .subscribe__email { box-sizing: border-box; width: 256px; outline: none; display: block; padding: 15px 22px; background: #e1e1e1; border: none; border-radius: 10px 0 0 10px; }
 
-.subscribe__btn { outline: none; border: none; background: #f16d7f; color: #FFFFFF; padding: 15px 22px; border-radius: 0 10px 10px 0; }
+.subscribe__btn { outline: none; border: none; background: #f16d7f; color: #ffffff; padding: 15px 22px; border-radius: 0 10px 10px 0; }
 
-.subscribe__btn:hover { background: #E05C6E; }
+.subscribe__btn:hover { background: #e05c6e; }
 
 .subscribe__btn:active { background: #f16d7f; }
 
@@ -325,7 +325,7 @@
 
 .social-link { width: 32px; height: 32px; display: flex; justify-content: center; align-items: center; margin-right: 7px; text-decoration: none; background-color: #fff; fill: #000; }
 
-.social-link:hover { background-color: #F16D7F; fill: #fff; }
+.social-link:hover { background-color: #f16d7f; fill: #fff; }
 
 .social-link:active { background-color: #fff; fill: #000; }
 
@@ -338,7 +338,7 @@
 
 .cart__card-box { display: flex; justify-content: space-between; flex-flow: wrap; width: 57%; }
 
-.cart__card { display: flex; justify-content: flex-start; align-items: flex-start; position: relative; width: 100%; margin-bottom: 40px; box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13); }
+.cart__card { display: flex; justify-content: flex-start; align-items: flex-start; position: relative; width: 100%; min-width: 516px; margin-bottom: 40px; box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13); }
 
 .cart__card-img { width: 45%; height: auto; display: block; }
 
@@ -380,8 +380,8 @@ input.cart__edt::placeholder { color: #b1b1b1; }
 
 .price-box__hr { border: none; border-bottom: 1px solid #e2e2e2; background: #e2e2e2; width: 100%; margin-bottom: 17px; }
 
-.price-box__btn { outline: none; width: 100%; padding: 15px 0; font-size: 16px; line-height: 19px; font-weight: 300; color: #fff; text-transform: uppercase; white-space: normal; text-align: center; background-color: #f16d7f; border: none; box-sizing: border-box; }
+.price-box__btn { outline: none; width: 100%; padding: 15px 8px; font-size: 16px; line-height: 19px; font-weight: 300; color: #fff; text-transform: uppercase; white-space: normal; text-align: center; background-color: #f16d7f; border: none; box-sizing: border-box; }
 
-.price-box__btn:hover { background: #E05C6E; }
+.price-box__btn:hover { background: #e05c6e; }
 
 .price-box__btn:active { background: #f16d7f; }
