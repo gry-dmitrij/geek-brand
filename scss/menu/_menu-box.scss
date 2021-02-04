@@ -1,0 +1,15 @@
+.menu-box{
+	width: 100%;
+	min-height: 764px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+	z-index: 3;
+}
+
+.top__menu-chb:checked ~ .menu-box{
+	display: flex;
+	justify-content: flex-end;
+}

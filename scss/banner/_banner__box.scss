@@ -1,0 +1,13 @@
+.banner__box{
+	display: flex;
+    align-items: stretch;
+    min-height: 764px;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.banner__box_mini{
+	min-height: 0;
+	padding: 60px 20px;
+	justify-content: space-between;
+}

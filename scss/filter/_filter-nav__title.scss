@@ -1,0 +1,16 @@
+.filter-nav__title{
+	font-weight: 600;
+	color: #000;
+	text-transform: uppercase;
+	position: relative;
+	padding-right: 26px;
+	&:after{
+		content: '';
+		width: 15px;
+		height: 10px;
+		top: calc(50% - 5px);
+		right: 0;
+		position: absolute;
+		background: url("../img/filter_ico.svg");
+	}
+}

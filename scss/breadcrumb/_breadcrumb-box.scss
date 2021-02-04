@@ -1,0 +1,24 @@
+.breadcrumb-box{
+	display: flex;
+	list-style: none;
+	a{
+		font-size: 14px;
+		line-height: 17px;
+		font-weight: 300;
+		color: #636363;
+		text-transform: uppercase;
+		text-decoration: none;
+		&:after{
+			content:'/';
+			margin: 0 5px;
+
+		}
+	}
+	:last-child a{
+		font-weight: 700;
+		color: #f16d7f;
+		&:after{
+			display: none;
+		}
+	}
+}

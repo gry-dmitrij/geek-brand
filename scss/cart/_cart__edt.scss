@@ -1,0 +1,15 @@
+.cart__edt{
+	width: 100%;
+	padding: 13px 17px 16px;
+	margin-bottom: 21px;
+	color: #222;
+	box-sizing: border-box;
+}
+
+input.cart__edt:-ms-input-placeholder{
+	color: #b1b1b1;
+}
+
+input.cart__edt::placeholder{
+	color: #b1b1b1;
+}

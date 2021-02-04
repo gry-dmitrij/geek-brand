@@ -1,0 +1,30 @@
+.top__ico{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-color: transparent;
+	cursor: pointer;
+	margin-right: 33px;
+	display: block;
+	min-width: 23px;
+	min-height: 23px;
+	fill: #fff;
+	position: relative;
+	border: 1px solid transparent;
+	padding: 3px;
+	border-radius: 3px;
+	&:active{
+		background: rgba(255, 255, 255, 0.5);
+	}
+	&:hover{
+		border: 1px solid #fff;
+	}
+}
+
+.top__ico:last-child{
+	margin-right: 0;
+}
+
+.top__ico_btn{
+    outline: none;
+}
