@@ -1,0 +1,20 @@
+.form-lbl-caption{
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 300;
+	color: #222;
+	display: block;
+	width: 100%;
+	margin: 10px 0 10px 0;
+	&:first-child{
+		margin-top: 0;
+	}
+}
+
+.form-lbl-caption_main{
+	text-transform: uppercase;
+}
+
+.form-lbl-caption_cap{
+	text-transform: capitalize;
+}
