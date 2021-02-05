@@ -48,13 +48,11 @@
   src: local("Lato"), url("../font/Lato-ThinItalic.ttf");
   font-weight: 100;
   font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/_general\.scss}line{font-family:\000031}}
 * {
   margin: 0;
   padding: 0;
   font-family: Lato, sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/_general\.scss}line{font-family:\000037}}
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -66,74 +64,61 @@
   width: 1px !important;
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/_general\.scss}line{font-family:\0000318}}
 .right-txt {
   font-size: 16px;
   line-height: 19px;
   color: #FBFBFB;
   text-transform: capitalize; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/boxes\/_boxes\.scss}line{font-family:\000031}}
 .box_edge,
 .box_center,
 .box_column {
   display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/boxes\/_boxes\.scss}line{font-family:\000037}}
 .box_edge {
   justify-content: space-between;
   align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/boxes\/_boxes\.scss}line{font-family:\0000312}}
 .box_center {
   justify-content: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/boxes\/_boxes\.scss}line{font-family:\0000316}}
 .box_bottom {
   align-items: flex-end; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/boxes\/_boxes\.scss}line{font-family:\0000320}}
 .box_column {
   justify-content: flex-start;
   align-items: flex-start;
   flex-flow: column; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/boxes\/_container\.scss}line{font-family:\000031}}
 .container {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/boxes\/_center-box\.scss}line{font-family:\000031}}
 .center-box {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/boxes\/_single\.scss}line{font-family:\000031}}
 .single {
   display: block;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/boxes\/_single\.scss}line{font-family:\000036}}
 .single_center {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/general\/_font\.scss}line{font-family:\000031}}
 .font_general {
   font-size: 14px;
   line-height: 17px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/top\/_top\.scss}line{font-family:\000031}}
 .top {
   background: #222;
   padding: 18px 0;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/top\/_top__ico\.scss}line{font-family:\000031}}
 .top__ico {
   background-repeat: no-repeat;
   background-position: center;
@@ -149,34 +134,26 @@
   border: 1px solid transparent;
   padding: 3px;
   border-radius: 3px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/top\/_top__ico\.scss}line{font-family:\0000316}}
   .top__ico:active {
     background: rgba(255, 255, 255, 0.5); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/top\/_top__ico\.scss}line{font-family:\0000319}}
   .top__ico:hover {
     border: 1px solid #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/top\/_top__ico\.scss}line{font-family:\0000324}}
 .top__ico:last-child {
   margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/top\/_top__ico\.scss}line{font-family:\0000328}}
 .top__ico_btn {
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/top\/_top__brand\.scss}line{font-family:\000031}}
 .top__brand {
   margin-right: 41px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/top\/_top__img\.scss}line{font-family:\000031}}
 .top__img_last {
   margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/top\/_top__menu-chb\.scss}line{font-family:\000031}}
 .top__menu-chb {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/top\/_basket-items\.scss}line{font-family:\000031}}
 .basket-items {
   background: #f16d7f;
   position: absolute;
@@ -188,7 +165,6 @@
   color: #fff;
   padding: 2px 6px 3px 6px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu-box\.scss}line{font-family:\000031}}
 .menu-box {
   width: 100%;
   min-height: 764px;
@@ -199,12 +175,10 @@
   display: none;
   z-index: 3; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu-box\.scss}line{font-family:\0000312}}
 .top__menu-chb:checked ~ .menu-box {
   display: flex;
   justify-content: flex-end; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu__sidebar\.scss}line{font-family:\000031}}
 .menu__sidebar {
   position: relative;
   min-height: 764px;
@@ -213,7 +187,6 @@
   box-sizing: border-box;
   padding: 37px 33px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu__close-btn\.scss}line{font-family:\000031}}
 .menu__close-btn {
   width: 12px;
   height: 12px;
@@ -224,13 +197,11 @@
   outline: none;
   border: none;
   background-color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu__close-btn\.scss}line{font-family:\0000311}}
   .menu__close-btn:hover {
     width: 14px;
     height: 14px;
     right: 15px;
     top: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu__close-btn\.scss}line{font-family:\0000317}}
   .menu__close-btn:active {
     background-color: transparent;
     width: 12px;
@@ -238,18 +209,15 @@
     right: 16px;
     top: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu__title\.scss}line{font-family:\000031}}
 .menu__title {
   font-weight: 700;
   text-transform: uppercase;
   color: #000;
   margin-bottom: 24px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu__list\.scss}line{font-family:\000031}}
 .menu__list {
   list-style: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu__list\.scss}line{font-family:\000035}}
 .menu__list > li,
 .menu__list > li > * {
   font-size: 14px;
@@ -259,31 +227,25 @@
   text-transform: none;
   margin-bottom: 11px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu__list\.scss}line{font-family:\0000315}}
 .menu__list > li:first-child {
   margin-top: 12px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu__list\.scss}line{font-family:\0000319}}
 .menu__list_main > li,
 .menu__list_main > li > * {
   color: #f16d7f;
   text-transform: uppercase;
   margin-bottom: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/menu\/_menu__list\.scss}line{font-family:\0000326}}
 .menu__list_sub {
   margin-left: 21px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner\.scss}line{font-family:\000031}}
 .banner {
   background: #f1e4e6;
   margin-bottom: 65px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner\.scss}line{font-family:\000035}}
 .banner_mini {
   margin-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner__box\.scss}line{font-family:\000031}}
 .banner__box {
   display: flex;
   align-items: stretch;
@@ -291,13 +253,11 @@
   justify-content: flex-end;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner__box\.scss}line{font-family:\000039}}
 .banner__box_mini {
   min-height: 0;
   padding: 60px 20px;
   justify-content: space-between; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner__img\.scss}line{font-family:\000031}}
 .banner__img {
   width: 100%;
   height: 100%;
@@ -309,7 +269,6 @@
   background-position: -200px bottom;
   background-size: auto 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner__title\.scss}line{font-family:\000031}}
 .banner__title {
   font-size: 24px;
   line-height: 28.8px;
@@ -317,7 +276,6 @@
   text-transform: uppercase;
   color: #f16d7f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner__txt-box\.scss}line{font-family:\000031}}
 .banner__txt-box {
   width: 50%;
   min-width: 365px;
@@ -326,7 +284,6 @@
   justify-content: flex-start;
   z-index: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner__text\.scss}line{font-family:\000031}}
 .banner__text {
   display: flex;
   flex-direction: column;
@@ -334,38 +291,31 @@
   padding-left: 63px;
   height: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner__txt-decoration\.scss}line{font-family:\000031}}
 .banner__txt-decoration {
   padding-left: 16px;
   border-left: 12px solid #f16d7f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner__txt\.scss}line{font-family:\000031}}
 .banner-txt {
   display: block;
   color: #222;
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner__txt\.scss}line{font-family:\000037}}
 .banner-txt_lvl1 {
   font-weight: 900;
   font-size: 48px;
   line-height: 58px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner__txt\.scss}line{font-family:\0000313}}
 .banner-txt_lvl2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 38px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/banner\/_banner__txt\.scss}line{font-family:\0000319}}
 .banner-txt_color {
   color: #f16d7f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/breadcrumb\/_breadcrumb-box\.scss}line{font-family:\000031}}
 .breadcrumb-box {
   display: flex;
   list-style: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/breadcrumb\/_breadcrumb-box\.scss}line{font-family:\000034}}
   .breadcrumb-box a {
     font-size: 14px;
     line-height: 17px;
@@ -373,31 +323,23 @@
     color: #636363;
     text-transform: uppercase;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/breadcrumb\/_breadcrumb-box\.scss}line{font-family:\0000311}}
     .breadcrumb-box a:after {
       content: '/';
       margin: 0 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/breadcrumb\/_breadcrumb-box\.scss}line{font-family:\0000316}}
     .breadcrumb-box a:hover {
       font-weight: 900; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/breadcrumb\/_breadcrumb-box\.scss}line{font-family:\0000319}}
     .breadcrumb-box a:active {
       font-weight: 500; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/breadcrumb\/_breadcrumb-box\.scss}line{font-family:\0000323}}
   .breadcrumb-box :last-child a {
     font-weight: 700;
     color: #f16d7f; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/breadcrumb\/_breadcrumb-box\.scss}line{font-family:\0000326}}
     .breadcrumb-box :last-child a:after {
       display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/breadcrumb\/_breadcrumb-box\.scss}line{font-family:\0000329}}
     .breadcrumb-box :last-child a:hover {
       font-weight: 900; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/breadcrumb\/_breadcrumb-box\.scss}line{font-family:\0000332}}
     .breadcrumb-box :last-child a:active {
       font-weight: 500; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-box\.scss}line{font-family:\000031}}
 .filter-box {
   display: flex;
   align-items: center;
@@ -405,7 +347,6 @@
   position: relative;
   margin-top: 50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-nav\.scss}line{font-family:\000031}}
 .filter-nav {
   position: absolute;
   left: -13px;
@@ -414,27 +355,21 @@
   background: #ffffff;
   padding: 13px 16px;
   box-sizing: border-box; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-nav\.scss}line{font-family:\000039}}
   .filter-nav:hover {
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     z-index: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-nav\.scss}line{font-family:\0000312}}
     .filter-nav:hover .filter-nav__list {
       display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-nav\.scss}line{font-family:\0000315}}
     .filter-nav:hover .filter-nav__title {
       color: #ef5b70; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-nav\.scss}line{font-family:\0000317}}
       .filter-nav:hover .filter-nav__title:after {
         background: url("../img/filter_ico_red.svg"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-nav__list\.scss}line{font-family:\000031}}
 .filter-nav__list {
   display: none;
   list-style: none;
   margin-top: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-nav__list\.scss}line{font-family:\000037}}
 .filter-nav__list_sub {
   display: none;
   padding-left: 24px;
@@ -442,22 +377,18 @@
   color: #6f6e6e;
   text-transform: capitalize;
   list-style: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-nav__list\.scss}line{font-family:\0000314}}
   .filter-nav__list_sub li {
     margin-bottom: 11px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-nav__list\.scss}line{font-family:\0000317}}
   .filter-nav__list_sub a {
     color: #6f6e6e;
     text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-nav__title\.scss}line{font-family:\000031}}
 .filter-nav__title {
   font-weight: 600;
   color: #000;
   text-transform: uppercase;
   position: relative;
   padding-right: 26px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter-nav__title\.scss}line{font-family:\000037}}
   .filter-nav__title:after {
     content: '';
     width: 15px;
@@ -467,14 +398,11 @@
     position: absolute;
     background: url("../img/filter_ico.svg"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/nav-list\/_nav-list__chb\.scss}line{font-family:\000031}}
 .nav-list__chb {
   display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/nav-list\/_nav-list__chb\.scss}line{font-family:\000033}}
   .nav-list__chb:checked ~ .filter-nav__list_sub {
     display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/nav-list\/_nav-list__lbl\.scss}line{font-family:\000031}}
 .nav-list__lbl {
   display: block;
   padding: 11px;
@@ -485,11 +413,9 @@
   color: #ef5b70;
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter__item\.scss}line{font-family:\000031}}
 button.filter__item {
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter__item\.scss}line{font-family:\000035}}
 .filter__item {
   display: flex;
   position: relative;
@@ -501,11 +427,9 @@ button.filter__item {
   background: transparent;
   border: none;
   outline: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter__item\.scss}line{font-family:\0000316}}
   .filter__item:last-child {
     margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter__item\.scss}line{font-family:\0000321}}
 .filter__item:after {
   content: '';
   display: block;
@@ -517,7 +441,6 @@ button.filter__item {
   margin-left: 10px;
   background: center/contain no-repeat url(../img/chevron-down.svg); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter__item-list\.scss}line{font-family:\000031}}
 .filter__item-list {
   display: none;
   position: absolute;
@@ -529,20 +452,16 @@ button.filter__item {
   background: #fff;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   z-index: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter__item-list\.scss}line{font-family:\0000312}}
   .filter__item-list li {
     display: flex;
     align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter__item-list\.scss}line{font-family:\0000316}}
   .filter__item-list label {
     text-transform: uppercase;
     padding-left: 9px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/filter\/_filter__item-list\.scss}line{font-family:\0000322}}
 .filter__item:hover .filter__item-list {
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/card\/_card-box\.scss}line{font-family:\000031}}
 .card-box {
   display: flex;
   justify-content: space-between;
@@ -550,7 +469,6 @@ button.filter__item {
   align-items: stretch;
   margin-bottom: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/card\/_card\.scss}line{font-family:\000031}}
 .card {
   background: center / cover no-repeat;
   display: flex;
@@ -561,37 +479,29 @@ button.filter__item {
   padding: 9.5% 0;
   margin-bottom: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/card\/_card\.scss}line{font-family:\0000312}}
 .card_wide {
   padding: 8% 0;
   width: 100%;
   background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../img/accesories.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/card\/_card\.scss}line{font-family:\0000318}}
 .card_for-women {
   background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../img/for_women.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/card\/_card\.scss}line{font-family:\0000322}}
 .card_for-men {
   background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../img/for_men.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/card\/_card\.scss}line{font-family:\0000326}}
 .card_for-kids {
   background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("../img/for_kids.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/card\/_card\.scss}line{font-family:\0000330}}
 .card:last-child {
   margin-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/card\/_card\.scss}line{font-family:\0000334}}
 .card_fill {
   flex-basis: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/card\/_card\.scss}line{font-family:\0000338}}
 .card:last-child {
   margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/card\/_card__photo-desc\.scss}line{font-family:\000031}}
 .card__photo-desc {
   text-align: center;
   text-transform: uppercase;
@@ -599,13 +509,11 @@ button.filter__item {
   font-weight: 400;
   color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/card\/_card__photo-desc\.scss}line{font-family:\000038}}
 .card__photo-desc_color {
   font-size: 24px;
   font-weight: 700;
   color: #f16d7f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__banner-box\.scss}line{font-family:\000031}}
 .product__banner-box {
   display: flex;
   justify-content: center;
@@ -615,7 +523,6 @@ button.filter__item {
   background: #f7f7f7;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__banner-btn\.scss}line{font-family:\000033}}
 .product__banner-btn_mini {
   width: 47px;
   height: 47px;
@@ -624,31 +531,25 @@ button.filter__item {
   outline: none;
   border: none;
   background: center no-repeat rgba(42, 42, 42, 0.15); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__banner-btn\.scss}line{font-family:\0000311}}
   .product__banner-btn_mini:hover {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__banner-btn\.scss}line{font-family:\0000314}}
   .product__banner-btn_mini:active {
     box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__banner-btn\.scss}line{font-family:\0000319}}
 .product__banner-btn_next {
   right: 0;
   background-image: url("../img/next_btn.svg"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__banner-btn\.scss}line{font-family:\0000324}}
 .product__banner-btn_prev {
   left: 0;
   background-image: url("../img/prev_btn.svg"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product-box\.scss}line{font-family:\000031}}
 .product-box {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 65px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product-caption\.scss}line{font-family:\000031}}
 .product-caption {
   width: 100%;
   font-weight: 400;
@@ -656,7 +557,6 @@ button.filter__item {
   text-align: center;
   margin-bottom: 6px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product-card\.scss}line{font-family:\000031}}
 .product-card {
   width: 32%;
   display: flex;
@@ -667,7 +567,6 @@ button.filter__item {
   background: #F8F8F8;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product-desc\.scss}line{font-family:\000031}}
 .product-desc {
   width: 100%;
   font-weight: 400;
@@ -675,13 +574,11 @@ button.filter__item {
   text-align: center;
   margin-bottom: 48px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product-card__img\.scss}line{font-family:\000031}}
 .product-card__img {
   width: 100%;
   height: 100%;
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product-card__img-box\.scss}line{font-family:\000031}}
 .product-card__img-box {
   display: flex;
   justify-content: center;
@@ -689,7 +586,6 @@ button.filter__item {
   margin-bottom: 24px;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product-card__img-box\.scss}line{font-family:\000039}}
 .product-card__img-box:hover:after {
   content: '';
   position: absolute;
@@ -699,7 +595,6 @@ button.filter__item {
   top: 0;
   left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product-card__name\.scss}line{font-family:\000031}}
 .product-card__name {
   margin: 0 0 12px 18px;
   font-weight: 400;
@@ -708,24 +603,20 @@ button.filter__item {
   text-transform: uppercase;
   color: #000000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product-card__desc\.scss}line{font-family:\000031}}
 .product-card__desc {
   margin: 0 0 18px 16px;
   font-weight: 300;
   color: #5d5d5d; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product-card__price\.scss}line{font-family:\000031}}
 .product-card__price {
   margin-left: 18px;
   font-size: 16px;
   line-height: 19px;
   color: #f16d7f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product-card__link\.scss}line{font-family:\000031}}
 .product-card__link {
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__add-btn\.scss}line{font-family:\000031}}
 .product__add-btn {
   display: none;
   position: absolute;
@@ -741,7 +632,6 @@ button.filter__item {
   align-items: center;
   cursor: pointer;
   z-index: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__add-btn\.scss}line{font-family:\0000316}}
   .product__add-btn:before {
     content: '';
     display: block;
@@ -749,16 +639,13 @@ button.filter__item {
     height: 24px;
     background: url("../img/basket_ico.svg") center/contain no-repeat;
     margin-right: 11px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__add-btn\.scss}line{font-family:\0000324}}
   .product__add-btn:hover {
     background: #f16d7f;
     border: 1px solid #f16d7f; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__add-btn\.scss}line{font-family:\0000328}}
   .product__add-btn:active {
     background: transparent;
     border: 1px solid #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__add-btn\.scss}line{font-family:\0000334}}
 .product__add-btn_visible {
   border-color: #ff6a6a;
   color: #ef5b70;
@@ -766,28 +653,21 @@ button.filter__item {
   display: flex;
   position: relative;
   min-width: 210px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__add-btn\.scss}line{font-family:\0000341}}
   .product__add-btn_visible:before {
     background-image: url("../img/basket_ico_red.svg"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__add-btn\.scss}line{font-family:\0000344}}
   .product__add-btn_visible:hover {
     color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__add-btn\.scss}line{font-family:\0000346}}
     .product__add-btn_visible:hover:before {
       background-image: url("../img/basket_ico.svg"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__add-btn\.scss}line{font-family:\0000350}}
   .product__add-btn_visible:active {
     color: #ef5b70;
     border: 1px solid #f16d7f; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__add-btn\.scss}line{font-family:\0000353}}
     .product__add-btn_visible:active:before {
       background-image: url("../img/basket_ico_red.svg"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__add-btn\.scss}line{font-family:\0000359}}
 .product-card__img-box:hover .product__add-btn {
   display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__btn\.scss}line{font-family:\000031}}
 .product__btn {
   text-transform: capitalize;
   margin: 18px auto 0;
@@ -798,16 +678,13 @@ button.filter__item {
   color: #F26376;
   border: 1px solid #FF6A6A;
   outline: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__btn\.scss}line{font-family:\0000311}}
   .product__btn:hover {
     background: #F16D7F;
     color: #FFFFFF; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__btn\.scss}line{font-family:\0000315}}
   .product__btn:active {
     background: transparent;
     color: #f26376; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/product\/_product__popup\.scss}line{font-family:\000031}}
 .product__popup {
   display: flex;
   flex-direction: column;
@@ -820,7 +697,6 @@ button.filter__item {
   position: relative;
   top: -65px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/popup\/_popup__chapter-name\.scss}line{font-family:\000031}}
 .popup__chapter-name {
   display: flex;
   flex-direction: column;
@@ -829,7 +705,6 @@ button.filter__item {
   color: #f16d7f;
   text-transform: uppercase;
   margin-bottom: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/popup\/_popup__chapter-name\.scss}line{font-family:\000039}}
   .popup__chapter-name:after {
     content: '';
     display: block;
@@ -838,7 +713,6 @@ button.filter__item {
     background-color: #ef5b70;
     margin-top: 12px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/popup\/_popup__title\.scss}line{font-family:\000031}}
 .popup__title {
   font-size: 18px;
   line-height: 22px;
@@ -847,14 +721,12 @@ button.filter__item {
   color: #4d4d4d;
   margin-bottom: 48px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/popup\/_popup__txt\.scss}line{font-family:\000031}}
 .popup__txt {
   font-weight: 300;
   color: #5e5e5e;
   text-align: center;
   max-width: 555px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/popup\/_popup__price\.scss}line{font-family:\000031}}
 .popup__price {
   font-size: 24px;
   line-height: 29px;
@@ -864,7 +736,6 @@ button.filter__item {
   width: 100%;
   display: block;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/popup\/_popup__price\.scss}line{font-family:\0000310}}
   .popup__price:after {
     content: '';
     display: block;
@@ -873,7 +744,6 @@ button.filter__item {
     border: 1px inset #eaeaea;
     margin: 65px auto 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/pagination\/_pagination\.scss}line{font-family:\000031}}
 .pagination {
   display: flex;
   justify-content: center;
@@ -881,7 +751,6 @@ button.filter__item {
   margin: 18px auto;
   padding: 12px 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/pagination\/_pagination__btn\.scss}line{font-family:\000031}}
 .pagination__btn {
   width: 8px;
   height: 14px;
@@ -890,109 +759,87 @@ button.filter__item {
   outline: none;
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/pagination\/_pagination__btn\.scss}line{font-family:\0000310}}
 .pagination__btn_prev {
   background-image: url("../img/prev_btn.svg");
   margin-right: 17px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/pagination\/_pagination__btn\.scss}line{font-family:\0000315}}
 .pagination__btn_next {
   background-image: url("../img/next_btn.svg");
   margin-left: 17px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/pagination\/_pagination__list\.scss}line{font-family:\000031}}
 .pagination__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/pagination\/_pagination__list\.scss}line{font-family:\000036}}
   .pagination__list * {
     text-decoration: none;
     font-size: 16px;
     line-height: 19px;
     font-weight: 300;
     color: #c4c4c4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/pagination\/_pagination__list\.scss}line{font-family:\0000313}}
   .pagination__list li {
     margin-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/pagination\/_pagination__list\.scss}line{font-family:\0000315}}
     .pagination__list li:last-child {
       margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/pagination\/_pagination__list\.scss}line{font-family:\0000319}}
   .pagination__list .no-margin {
     margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/pagination\/_pagination__list\.scss}line{font-family:\0000322}}
   .pagination__list .cur-page {
     color: #ef5b70; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer\.scss}line{font-family:\000031}}
 .footer {
   width: 100%;
   background: #222224; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__bottom\.scss}line{font-family:\000031}}
 .footer__bottom {
   padding: 24px 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__card-box\.scss}line{font-family:\000031}}
 .footer__card-box {
   padding: 104px 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__card\.scss}line{font-family:\000031}}
 .footer__card {
   width: 32%;
   display: flex;
   flex-direction: column; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__thumb\.scss}line{font-family:\000031}}
 .footer__thumb {
   margin: 0 auto 23px;
   fill: #f16d7f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__txt\.scss}line{font-family:\000031}}
 .footer__txt {
   color: #fbfbfb;
   font-weight: 400;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__txt\.scss}line{font-family:\000037}}
 .footer__txt_name {
   font-size: 19.96px;
   line-height: 24px;
   margin-bottom: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__txt\.scss}line{font-family:\0000313}}
 .footer__txt_desc {
   font-weight: 300; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__txt\.scss}line{font-family:\000031}}
 .footer__txt {
   color: #fbfbfb;
   font-weight: 400;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__txt\.scss}line{font-family:\000037}}
 .footer__txt_name {
   font-size: 19.96px;
   line-height: 24px;
   margin-bottom: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__txt\.scss}line{font-family:\0000313}}
 .footer__txt_desc {
   font-weight: 300; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__subscribe-box\.scss}line{font-family:\000031}}
 .footer__subscribe-box {
   background: center / cover no-repeat;
   background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url("../img/subscribe_bg.jpg"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/footer\/_footer__subscribe-card\.scss}line{font-family:\000031}}
 .footer__subscribe-card {
   display: block;
   padding: 86px 0 126px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/subscribe\/_subscribe__quote\.scss}line{font-family:\000031}}
 .subscribe__quote {
   max-width: 360px;
   display: block;
@@ -1001,12 +848,10 @@ button.filter__item {
   line-height: 24px;
   color: #222224; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/subscribe\/_subscribe__photo\.scss}line{font-family:\000031}}
 .subscribe__photo {
   display: block;
   margin: 0 auto 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/subscribe\/_subscribe__desc\.scss}line{font-family:\000031}}
 .subscribe__desc {
   color: #222224;
   text-align: center;
@@ -1016,19 +861,16 @@ button.filter__item {
   margin: 0 auto;
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/subscribe\/_subscribe__title\.scss}line{font-family:\000031}}
 .subscribe__title {
   font-size: 24px;
   font-weight: bold;
   line-height: 40.1px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/subscribe\/_subscribe__email-box\.scss}line{font-family:\000031}}
 .subscribe__email-box {
   display: flex;
   justify-content: center;
   margin-top: 32px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/subscribe\/_subscribe__email\.scss}line{font-family:\000031}}
 .subscribe__email {
   box-sizing: border-box;
   width: 256px;
@@ -1039,7 +881,6 @@ button.filter__item {
   border: none;
   border-radius: 10px 0 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/subscribe\/_subscribe__btn\.scss}line{font-family:\000031}}
 .subscribe__btn {
   outline: none;
   border: none;
@@ -1047,14 +888,11 @@ button.filter__item {
   color: #ffffff;
   padding: 15px 22px;
   border-radius: 0 10px 10px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/subscribe\/_subscribe__btn\.scss}line{font-family:\000038}}
   .subscribe__btn:hover {
     background: #e05c6e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/subscribe\/_subscribe__btn\.scss}line{font-family:\0000311}}
   .subscribe__btn:active {
     background: #f16d7f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/social-link\/_social-link\.scss}line{font-family:\000031}}
 .social-link {
   width: 32px;
   height: 32px;
@@ -1065,20 +903,16 @@ button.filter__item {
   text-decoration: none;
   background-color: #fff;
   fill: #000; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/social-link\/_social-link\.scss}line{font-family:\0000311}}
   .social-link:hover {
     background-color: #f16d7f;
     fill: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/social-link\/_social-link\.scss}line{font-family:\0000315}}
   .social-link:active {
     background-color: #fff;
     fill: #000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/social-link\/_social-link\.scss}line{font-family:\0000321}}
 .social-link:last-child {
   margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart-box\.scss}line{font-family:\000031}}
 .cart-box {
   display: flex;
   justify-content: space-between;
@@ -1086,14 +920,12 @@ button.filter__item {
   padding: 96px 20px 128px;
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__card-box\.scss}line{font-family:\000031}}
 .cart__card-box {
   display: flex;
   justify-content: space-between;
   flex-flow: wrap;
   width: 57%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__card\.scss}line{font-family:\000031}}
 .cart__card {
   display: flex;
   justify-content: flex-start;
@@ -1104,17 +936,14 @@ button.filter__item {
   margin-bottom: 40px;
   box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__card-img\.scss}line{font-family:\000031}}
 .cart__card-img {
   width: 45%;
   height: auto;
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__card-content\.scss}line{font-family:\000031}}
 .cart__card-content {
   padding: 22px 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__card-title\.scss}line{font-family:\000031}}
 .cart__card-title {
   font-size: 24px;
   line-height: 29px;
@@ -1124,7 +953,6 @@ button.filter__item {
   color: #222;
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__card-txt\.scss}line{font-family:\000031}}
 .cart__card-txt {
   font-size: 22px;
   line-height: 26px;
@@ -1133,17 +961,14 @@ button.filter__item {
   display: block;
   text-transform: capitalize; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__card-txt\.scss}line{font-family:\0000310}}
 .cart__card-txt_price {
   color: #ef5b70; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__card-edt\.scss}line{font-family:\000031}}
 .cart__card-edt {
   margin-left: 25px;
   width: 45px;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__card-btn\.scss}line{font-family:\000031}}
 .cart__card-btn {
   padding: 17px 40px;
   text-transform: uppercase;
@@ -1152,18 +977,15 @@ button.filter__item {
   color: #000;
   outline: none;
   margin-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__card-btn\.scss}line{font-family:\000039}}
   .cart__card-btn:hover {
     background-color: #f16d7f;
     border-color: #f16d7f;
     color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__card-btn\.scss}line{font-family:\0000314}}
   .cart__card-btn:active {
     background-color: transparent;
     border-color: #a4a4a4;
     color: #000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/cart\/_cart__price-box\.scss}line{font-family:\000031}}
 .cart__price-box {
   width: 100%;
   padding: 40px 44px;
@@ -1171,7 +993,6 @@ button.filter__item {
   background-color: #f5f3f3;
   margin-top: 57px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/price-box\/_price-box__total\.scss}line{font-family:\000031}}
 .price-box__total {
   display: block;
   font-weight: 300;
@@ -1181,14 +1002,12 @@ button.filter__item {
   position: relative;
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/price-box\/_price-box__total\.scss}line{font-family:\0000311}}
 .price-box__total_sub {
   font-size: 11px;
   line-height: 13px;
   color: #4a4a4a;
   margin-bottom: 12px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/price-box\/_price-box__total\.scss}line{font-family:\0000318}}
 .price-box__total_grand {
   font-size: 16px;
   line-height: 19px;
@@ -1197,21 +1016,17 @@ button.filter__item {
   padding-bottom: 21px;
   border-bottom: 2px solid #e2e2e2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/price-box\/_price-box__total\.scss}line{font-family:\0000327}}
 .price-box__total_price {
   position: absolute;
   top: 0;
   right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/price-box\/_price-box__total\.scss}line{font-family:\0000333}}
 .price-box__total_color {
   color: #f16d7f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/registration\/_registration-box\.scss}line{font-family:\000031}}
 .registration-box {
   padding: 64px 20px 96px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-box\.scss}line{font-family:\000031}}
 .form-box {
   display: flex;
   justify-content: flex-start;
@@ -1219,7 +1034,6 @@ button.filter__item {
   flex-flow: column;
   width: 32%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-edt\.scss}line{font-family:\000031}}
 .form-edt {
   width: 100%;
   padding: 13px 17px 16px;
@@ -1228,19 +1042,15 @@ button.filter__item {
   box-sizing: border-box;
   border: 1px solid #a4a4a4; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-edt\.scss}line{font-family:\0000310}}
 input.form-edt:-ms-input-placeholder {
   color: #b1b1b1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-edt\.scss}line{font-family:\0000314}}
 input.form-edt::placeholder {
   color: #b1b1b1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-edt\.scss}line{font-family:\0000318}}
 input.form-edt_cap::placeholder {
   text-transform: capitalize; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-btn\.scss}line{font-family:\000031}}
 .form-btn {
   font-weight: 400;
   font-size: 14px;
@@ -1255,28 +1065,23 @@ input.form-edt_cap::placeholder {
   color: #fff;
   text-transform: uppercase;
   white-space: normal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-btn\.scss}line{font-family:\0000315}}
   .form-btn:hover {
     background-color: #e05c6e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-btn\.scss}line{font-family:\0000318}}
   .form-btn:active {
     background-color: #f16d7f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-btn\.scss}line{font-family:\0000323}}
 .form-btn_price {
   font-size: 16px;
   line-height: 19px;
   width: 100%;
   font-weight: 300; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-btn\.scss}line{font-family:\0000330}}
 .form-btn_reg {
   margin: 20px 0;
   padding: 16px 65px 15px 30px;
   background-image: url("../img/right-arrow.svg");
   background-position: right 30px center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-lbl-caption\.scss}line{font-family:\000031}}
 .form-lbl-caption {
   font-size: 16px;
   line-height: 19px;
@@ -1284,20 +1089,16 @@ input.form-edt_cap::placeholder {
   color: #222;
   display: block;
   width: 100%;
-  margin: 10px 0 10px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-lbl-caption\.scss}line{font-family:\000039}}
+  margin: 10px 0; }
   .form-lbl-caption:first-child {
     margin-top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-lbl-caption\.scss}line{font-family:\0000314}}
 .form-lbl-caption_main {
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-lbl-caption\.scss}line{font-family:\0000318}}
 .form-lbl-caption_cap {
   text-transform: capitalize; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-lbl-sign\.scss}line{font-family:\000031}}
 .form-lbl-sign {
   font-size: 11px;
   line-height: 13px;
@@ -1307,7 +1108,6 @@ input.form-edt_cap::placeholder {
   display: inline;
   margin: 0 20px 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-radio-box\.scss}line{font-family:\000031}}
 .form-radio-box {
   display: flex;
   justify-content: flex-start;
@@ -1315,7 +1115,6 @@ input.form-edt_cap::placeholder {
   flex-flow: row wrap;
   margin: 20px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Study\/GeekBrains\/Profverstka\/Unit1\/Homework\/scss\/forms\/_form-tip\.scss}line{font-family:\000031}}
 .form-tip {
   font-size: 13px;
   line-height: 16px;
