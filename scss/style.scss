@@ -37,6 +37,7 @@
 @import "card/_card.scss";
 @import "card/_card__photo-desc.scss";
 @import "product/_product__banner-box.scss";
+@import "product/_product__banner-btn.scss";
 @import "product/_product-box.scss";
 @import "product/_product-caption.scss";
 @import "product/_product-card.scss";
@@ -46,6 +47,7 @@
 @import "product/_product-card__name.scss";
 @import "product/_product-card__desc.scss";
 @import "product/_product-card__price.scss";
+@import "product/_product-card__link.scss";
 @import "product/_product__add-btn.scss";
 @import "product/_product__btn.scss";
 @import "product/_product__popup.scss";
@@ -53,7 +55,6 @@
 @import "popup/_popup__title.scss";
 @import "popup/_popup__txt.scss";
 @import "popup/_popup__price.scss";
-@import "popup/_popup_hr.scss";
 @import "pagination/_pagination.scss";
 @import "pagination/_pagination__btn.scss";
 @import "pagination/_pagination__list.scss";
@@ -87,5 +88,4 @@
 @import "cart/_cart__edt.scss";
 @import "cart/_cart__price-box.scss";
 @import "price-box/_price-box__total.scss";
-@import "price-box/_price-box__hr.scss";
 @import "price-box/_price-box__btn.scss";

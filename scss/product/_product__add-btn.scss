@@ -35,6 +35,9 @@
 	border-color: #ff6a6a;
 	color: #ef5b70;
 	margin-top: 48px;
+	display: flex;
+	position: relative;
+	min-width: 210px;
 	&:before{
 		background-image: url("../img/basket_ico_red.svg");
 	}

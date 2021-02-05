@@ -13,12 +13,24 @@
 			margin: 0 5px;
 
 		}
+		&:hover{
+			font-weight: 900;
+		}
+		&:active{
+			font-weight: 500;
+		}
 	}
 	:last-child a{
 		font-weight: 700;
 		color: #f16d7f;
 		&:after{
 			display: none;
+		}
+		&:hover{
+			font-weight: 900;
+		}
+		&:active{
+			font-weight: 500;
 		}
 	}
 }

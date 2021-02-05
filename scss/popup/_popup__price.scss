@@ -4,4 +4,15 @@
 	font-weight: 300;
 	color: #ef5b70;
 	margin: 32px 0 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	&:after{
+		content: '';
+		display: block;
+		width: 100%;
+		max-width: 640px;
+		border: 1px inset #eaeaea;
+		margin: 65px auto 15px;
+	}
 }

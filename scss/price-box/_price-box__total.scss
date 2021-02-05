@@ -19,12 +19,14 @@
 	font-size: 16px;
 	line-height: 19px;
 	color: #222;
-	margin-bottom: 21px;
+	margin-bottom: 17px;
+	padding-bottom: 21px;
+	border-bottom: 2px solid #e2e2e2;
 }
 
 .price-box__total_price{
 	position: absolute;
-	bottom: 0;
+	top: 0;
 	right: 0;
 }
 
