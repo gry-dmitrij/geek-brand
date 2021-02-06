@@ -1025,6 +1025,9 @@ button.filter__item {
   color: #f16d7f; }
 
 .registration-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   padding: 64px 20px 96px; }
 
 .form-box {
@@ -1123,5 +1126,37 @@ input.form-edt_cap::placeholder {
   display: block;
   width: 100%;
   margin: 5px 0 10px; }
+
+.info-box {
+  width: 58%;
+  margin: 0 0 0 22px; }
+
+.info-box * {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  color: #000; }
+
+.info-box__caption {
+  text-transform: uppercase;
+  margin: 0 0 22px; }
+
+.info-box__list {
+  margin: 21px 0; }
+  .info-box__list > li {
+    position: relative;
+    padding: 0 0 0 33px;
+    list-style: none;
+    margin: 0 0 16px 0; }
+    .info-box__list > li:last-child {
+      margin-bottom: 0; }
+    .info-box__list > li:before {
+      content: '';
+      width: 20px;
+      height: 16px;
+      position: absolute;
+      top: calc(50% - 8px);
+      left: 0;
+      background: center/contain no-repeat url("../img/tick.svg"); }
 
 /*# sourceMappingURL=style.css.map */
