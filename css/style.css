@@ -253,12 +253,17 @@
   align-items: stretch;
   min-height: 764px;
   justify-content: flex-end;
-  position: relative; }
+  position: relative;
+  background-image: url(../img/brand_photo.png);
+  background-repeat: no-repeat;
+  background-position: -200px bottom;
+  background-size: auto 100%; }
 
 .banner__box_mini {
   min-height: 0;
   padding: 60px 20px;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-image: none; }
 
 .banner__img {
   width: 100%;
