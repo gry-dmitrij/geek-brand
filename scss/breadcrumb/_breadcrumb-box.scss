@@ -1,6 +1,10 @@
 .breadcrumb-box{
 	display: flex;
 	list-style: none;
+	li:after{
+		content:'/';
+		margin: 0 5px;
+	}
 	a{
 		font-size: 14px;
 		line-height: 17px;
@@ -8,16 +12,11 @@
 		color: #636363;
 		text-transform: uppercase;
 		text-decoration: none;
-		&:after{
-			content:'/';
-			margin: 0 5px;
-
-		}
 		&:hover{
-			font-weight: 900;
+			color: #fda973;
 		}
 		&:active{
-			font-weight: 500;
+			text-decoration: underline;
 		}
 	}
 	:last-child a{
@@ -27,10 +26,7 @@
 			display: none;
 		}
 		&:hover{
-			font-weight: 900;
-		}
-		&:active{
-			font-weight: 500;
+			color: #fda973;
 		}
 	}
 }

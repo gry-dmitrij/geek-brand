@@ -9,6 +9,15 @@
 		line-height: 19px;
 		font-weight: 300;
 		color: #c4c4c4;
+
+	}
+	& a{
+		&:hover{
+			color: #ef5b70;
+		}
+		&:active{
+			text-decoration: underline;
+		}
 	}
 	& li{
 		margin-right: 10px;
