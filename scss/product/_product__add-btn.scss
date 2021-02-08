@@ -1,16 +1,18 @@
 .product__add-btn{
-	display: none;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	visibility: hidden;
 	position: absolute;
-	margin: auto;
+	margin: 187px auto;
+	padding: 10px 13px 8px;
 	font-size: 14px;
 	line-height: 17px;
 	color: #fff;
 	border: 1px solid #FFFFFF;
 	background: transparent;
 	outline: none;
-	padding: 10px 13px 8px;
-	justify-content: center;
-	align-items: center;
 	cursor: pointer;
 	z-index: 1;
 	&:before{
@@ -35,7 +37,7 @@
 	border-color: #ff6a6a;
 	color: #ef5b70;
 	margin-top: 48px;
-	display: flex;
+	visibility: visible;
 	position: relative;
 	min-width: 210px;
 	&:before{
