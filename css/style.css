@@ -250,20 +250,25 @@
 
 .banner__box {
   display: flex;
-  align-items: stretch;
-  min-height: 764px;
+  min-height: 365px;
   justify-content: flex-end;
   position: relative;
   background-image: url(../img/brand_photo.png);
   background-repeat: no-repeat;
-  background-position: -200px bottom;
+  background-position: calc(-65% + 75px) 0;
   background-size: auto 100%; }
+  .banner__box:after {
+    content: '';
+    display: block;
+    padding: 33.5% 0; }
 
 .banner__box_mini {
   min-height: 0;
   padding: 60px 20px;
   justify-content: space-between;
   background-image: none; }
+  .banner__box_mini:after {
+    display: none; }
 
 .banner__img {
   width: 100%;
@@ -300,7 +305,12 @@
 
 .banner__txt-decoration {
   padding-left: 16px;
-  border-left: 12px solid #f16d7f; }
+  border-left: 12px solid #f16d7f;
+  position: absolute;
+  bottom: 50%;
+  box-sizing: border-box;
+  min-width: 403px;
+  width: 40%; }
 
 .banner-txt {
   display: block;
@@ -1173,3 +1183,5 @@ input.form-edt_cap::placeholder {
       top: calc(50% - 8px);
       left: 0;
       background: center/contain no-repeat url("../img/tick.svg"); }
+
+/*# sourceMappingURL=style.css.map */
