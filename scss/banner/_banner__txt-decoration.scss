@@ -7,3 +7,19 @@
 	min-width: 403px;
 	width: 40%;
 }
+
+@media (max-width: 768px) {
+	.banner__txt-decoration{
+		width: auto;
+		right: 34px;
+		min-width: 300px;
+	}
+}
+
+@media (max-width: 600px) {
+	.banner__txt-decoration{
+		position: relative;
+		right: 0;	
+	}
+	
+}
