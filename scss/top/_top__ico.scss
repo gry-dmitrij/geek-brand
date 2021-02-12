@@ -4,7 +4,7 @@
 	background-size: contain;
 	background-color: transparent;
 	cursor: pointer;
-	margin-right: 33px;
+	margin: 0 33px 0 0;
 	display: block;
 	min-width: 23px;
 	min-height: 23px;
@@ -27,4 +27,16 @@
 
 .top__ico_btn{
     outline: none;
+}
+
+.top__ico_menu{
+	@media (max-width: 480px) {
+		margin-right: 0;
+	}
+}
+
+.top__ico_not-mobile{
+	@media (max-width: 480px) {
+		display: none;
+	}
 }

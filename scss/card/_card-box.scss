@@ -4,4 +4,9 @@
 	flex-wrap: wrap;
 	align-items: stretch;
 	margin-bottom: 30px;
+	@media (max-width: 480px) {
+		justify-content: center;
+		align-items: center;
+		flex-flow: column;
+	}
 }

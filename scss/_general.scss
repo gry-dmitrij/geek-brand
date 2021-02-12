@@ -20,4 +20,8 @@
 	line-height: 19px;
 	color: #FBFBFB;
 	text-transform: capitalize;
+	@media (max-width: 480px) {
+		order: 2;
+		margin-top: 25px;
+	}
 }

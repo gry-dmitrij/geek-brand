@@ -69,6 +69,10 @@
   line-height: 19px;
   color: #FBFBFB;
   text-transform: capitalize; }
+  @media (max-width: 480px) {
+    .right-txt {
+      order: 2;
+      margin-top: 25px; } }
 
 .box_edge,
 .box_center,
@@ -125,7 +129,7 @@
   background-size: contain;
   background-color: transparent;
   cursor: pointer;
-  margin-right: 33px;
+  margin: 0 33px 0 0;
   display: block;
   min-width: 23px;
   min-height: 23px;
@@ -144,6 +148,14 @@
 
 .top__ico_btn {
   outline: none; }
+
+@media (max-width: 480px) {
+  .top__ico_menu {
+    margin-right: 0; } }
+
+@media (max-width: 480px) {
+  .top__ico_not-mobile {
+    display: none; } }
 
 .top__brand {
   margin-right: 41px; }
@@ -261,6 +273,12 @@
     content: '';
     display: block;
     padding: 33.5% 0; }
+  @media (max-width: 600px) {
+    .banner__box {
+      background-image: none;
+      justify-content: center;
+      align-items: center;
+      position: relative; } }
 
 .banner__box_mini {
   min-height: 0;
@@ -269,13 +287,11 @@
   background-image: none; }
   .banner__box_mini:after {
     display: none; }
+  @media (max-width: 600px) {
+    .banner__box_mini {
+      flex-flow: column;
+      padding: 24px 20px 46px; } }
 
-@media (max-width: 600px) {
-  .banner__box {
-    background-image: none;
-    justify-content: center;
-    align-items: center;
-    position: relative; } }
 .banner__img {
   width: 100%;
   height: 100%;
@@ -288,11 +304,15 @@
   background-size: auto 100%; }
 
 .banner__title {
+  margin: 0;
   font-size: 24px;
   line-height: 28.8px;
   font-weight: 400;
   text-transform: uppercase;
   color: #f16d7f; }
+  @media (max-width: 600px) {
+    .banner__title {
+      margin-bottom: 32px; } }
 
 .banner__txt-decoration {
   padding-left: 16px;
@@ -369,6 +389,9 @@
   justify-content: center;
   position: relative;
   margin-top: 50px; }
+  @media (max-width: 768px) {
+    .filter-box {
+      justify-content: flex-end; } }
 
 .filter-nav {
   position: absolute;
@@ -419,7 +442,16 @@
     top: calc(50% - 5px);
     right: 0;
     position: absolute;
-    background: url("../img/filter_ico.svg"); }
+    background: center/cover no-repeat url("../img/filter_ico.svg");
+    visibility: visible; }
+  @media (max-width: 480px) {
+    .filter-nav__title {
+      visibility: hidden;
+      display: block;
+      width: 0; }
+      .filter-nav__title:after {
+        width: 38px;
+        height: 25px; } }
 
 .nav-list__chb {
   display: none; }
@@ -491,6 +523,11 @@ button.filter__item {
   flex-wrap: wrap;
   align-items: stretch;
   margin-bottom: 30px; }
+  @media (max-width: 480px) {
+    .card-box {
+      justify-content: center;
+      align-items: center;
+      flex-flow: column; } }
 
 .card {
   background: center / cover no-repeat;
@@ -501,6 +538,10 @@ button.filter__item {
   width: 32%;
   padding: 9.5% 0;
   margin-bottom: 30px; }
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;
+      padding: 29.5% 0; } }
 
 .card_wide {
   padding: 8% 0;
@@ -572,6 +613,9 @@ button.filter__item {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 65px 0; }
+  @media (max-width: 1180px) {
+    .product-box {
+      justify-content: space-around; } }
 
 .product-caption {
   width: 100%;
@@ -586,7 +630,7 @@ button.filter__item {
   position: relative;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0 0 30px 0;
+  margin: 0 7px 30px;
   padding: 0 0 20px 0;
   background: #F8F8F8;
   text-decoration: none; }
@@ -609,7 +653,9 @@ button.filter__item {
   margin: 0 0 24px 0; }
 
 .product-card__name {
-  margin: 0 0 12px 18px;
+  display: block;
+  margin: 0 0 12px 0;
+  padding: 0 18px;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
@@ -617,12 +663,13 @@ button.filter__item {
   color: #000000; }
 
 .product-card__desc {
-  margin: 0 0 18px 16px;
+  margin: 0 0 18px 0;
+  padding: 0 16px;
   font-weight: 300;
   color: #5d5d5d; }
 
 .product-card__price {
-  margin-left: 18px;
+  padding: 0 18px;
   font-size: 16px;
   line-height: 19px;
   color: #f16d7f; }
@@ -825,15 +872,37 @@ button.filter__item {
   background: #222224; }
 
 .footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .footer__bottom {
+      flex-flow: column;
+      padding: 43px 20px 24px; } }
 
 .footer__card-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 104px 20px; }
+  @media (max-width: 768px) {
+    .footer__card-box {
+      padding: 48px 20px 64px;
+      flex-flow: column; } }
 
 .footer__card {
+  margin: 0;
   width: 32%;
+  max-width: 360px;
   display: flex;
   flex-direction: column; }
+  @media (max-width: 768px) {
+    .footer__card {
+      width: 100%;
+      margin-bottom: 48px; }
+      .footer__card:last-child {
+        margin-bottom: 0; } }
 
 .footer__thumb {
   margin: 0 auto 23px;
@@ -865,13 +934,31 @@ button.filter__item {
 .footer__txt_desc {
   font-weight: 300; }
 
-.footer__subscribe-box {
-  background: center / cover no-repeat;
+.footer__subscribe {
+  background: 25% center / cover no-repeat;
   background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url("../img/subscribe_bg.jpg"); }
+
+.footer__subscribe-box {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  @media (max-width: 768px) {
+    .footer__subscribe-box {
+      flex-flow: column;
+      justify-content: center;
+      padding: 54px 0 140px; } }
 
 .footer__subscribe-card {
   display: block;
-  padding: 86px 0 126px; }
+  padding: 86px 0 126px;
+  margin: 0; }
+  @media (max-width: 768px) {
+    .footer__subscribe-card {
+      padding: 0;
+      margin-bottom: 48px; }
+      .footer__subscribe-card:last-child {
+        margin-bottom: 0; } }
 
 .subscribe__quote {
   max-width: 360px;
@@ -902,7 +989,10 @@ button.filter__item {
 .subscribe__email-box {
   display: flex;
   justify-content: center;
-  margin-top: 32px; }
+  margin: 32px 0 0; }
+  @media (max-width: 768px) {
+    .subscribe__email-box {
+      margin-top: 27px; } }
 
 .subscribe__email {
   box-sizing: border-box;
@@ -912,7 +1002,7 @@ button.filter__item {
   padding: 15px 22px;
   background: #e1e1e1;
   border: none;
-  border-radius: 10px 0 0 10px; }
+  border-radius: 30px 0 0 30px; }
 
 .subscribe__btn {
   outline: none;
@@ -920,7 +1010,7 @@ button.filter__item {
   background: #f16d7f;
   color: #ffffff;
   padding: 15px 22px;
-  border-radius: 0 10px 10px 0; }
+  border-radius: 0 30px 30px 0; }
   .subscribe__btn:hover {
     background: #e05c6e; }
   .subscribe__btn:active {

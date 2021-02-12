@@ -11,6 +11,16 @@
 		top: calc(50% - 5px);
 		right: 0;
 		position: absolute;
-		background: url("../img/filter_ico.svg");
+		background: center / cover no-repeat url("../img/filter_ico.svg");
+		visibility: visible;
+	}
+	@media (max-width: 480px) {
+		visibility: hidden;
+		display: block;
+		width: 0;
+		&:after{
+			width: 38px;
+			height: 25px;
+		}
 	}
 }

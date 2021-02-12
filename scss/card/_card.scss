@@ -7,6 +7,10 @@
 	width: 32%;
 	padding: 9.5% 0;
 	margin-bottom: 30px;
+	@media (max-width: 480px) {
+		width: 100%;
+		padding: 29.5% 0;
+	}
 }
 
 .card_wide{

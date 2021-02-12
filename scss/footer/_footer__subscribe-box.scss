@@ -1,4 +1,11 @@
 .footer__subscribe-box{
-	background: center / cover no-repeat;
-	background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url("../img/subscribe_bg.jpg");
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	@media (max-width: 768px) {
+		flex-flow: column;
+		justify-content: center;
+		padding: 54px 0 140px;
+	}
 }

@@ -12,6 +12,12 @@
 		display: block;
 		padding: 33.5% 0;
 	}
+	@media (max-width: 600px) {
+		background-image: none;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
 }
 
 .banner__box_mini{
@@ -22,13 +28,8 @@
 	&:after{
 		display: none;
 	}
-}
-
-@media (max-width: 600px) {
-	.banner__box{
-		background-image: none;
-		justify-content: center;
-		align-items: center;
-		position: relative;
-	}	
+	@media (max-width: 600px) {
+		flex-flow: column;
+		padding: 24px 20px 46px;
+	}
 }
