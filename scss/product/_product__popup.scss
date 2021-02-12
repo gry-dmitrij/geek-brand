@@ -9,4 +9,9 @@
 	background-color: #fff;
 	position: relative;
 	top: -65px;
+	max-width: 1140px;
+	margin: 0 auto;
+	@media (max-width: 768px) {
+		top: 0;
+	}
 }

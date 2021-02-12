@@ -15,4 +15,9 @@
 		border: 1px inset #eaeaea;
 		margin: 65px auto 15px;
 	}
+	@media (max-width: 480px) {
+		&:after{
+			max-width: 174px;
+		}
+	}
 }

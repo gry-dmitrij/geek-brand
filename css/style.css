@@ -409,7 +409,7 @@
     .filter-nav:hover .filter-nav__title {
       color: #ef5b70; }
       .filter-nav:hover .filter-nav__title:after {
-        background: url("../img/filter_ico_red.svg"); }
+        background: center/cover no-repeat url("../img/filter_ico_red.svg"); }
 
 .filter-nav__list {
   display: none;
@@ -484,6 +484,10 @@ button.filter__item {
   outline: none; }
   .filter__item:last-child {
     margin-right: 0; }
+  @media (max-width: 480px) {
+    .filter__item {
+      font-size: 12px;
+      line-height: 14px; } }
 
 .filter__item:after {
   content: '';
@@ -582,10 +586,16 @@ button.filter__item {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
   position: relative;
   padding: 11px 0 42px;
   background: #f7f7f7;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); }
+  @media (max-width: 768px) {
+    .product__banner-box {
+      padding: 30px 0;
+      max-height: 624px;
+      box-shadow: none; } }
 
 .product__banner-btn_mini {
   width: 47px;
@@ -767,7 +777,12 @@ button.filter__item {
   border: 1px solid #EAEAEA;
   background-color: #fff;
   position: relative;
-  top: -65px; }
+  top: -65px;
+  max-width: 1140px;
+  margin: 0 auto; }
+  @media (max-width: 768px) {
+    .product__popup {
+      top: 0; } }
 
 .popup__chapter-name {
   display: flex;
@@ -815,6 +830,9 @@ button.filter__item {
     max-width: 640px;
     border: 1px inset #eaeaea;
     margin: 65px auto 15px; }
+  @media (max-width: 480px) {
+    .popup__price:after {
+      max-width: 174px; } }
 
 .pagination {
   display: flex;
@@ -1042,12 +1060,23 @@ button.filter__item {
   align-items: flex-start;
   padding: 96px 20px 128px;
   box-sizing: border-box; }
+  @media (max-width: 1180px) {
+    .cart-box {
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 0 147px; } }
 
 .cart__card-box {
   display: flex;
   justify-content: space-between;
   flex-flow: wrap;
   width: 57%; }
+  @media (max-width: 1180px) {
+    .cart__card-box {
+      width: 100%;
+      justify-content: space-around;
+      margin-bottom: 62px; } }
 
 .cart__card {
   display: flex;
@@ -1284,3 +1313,15 @@ input.form-edt_cap::placeholder {
       top: calc(50% - 8px);
       left: 0;
       background: center/contain no-repeat url("../img/tick.svg"); }
+
+@media (max-width: 480px) {
+  .not-mobile {
+    display: none; } }
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .not-tablet {
+    display: none; } }
+
+@media (min-width: 768px) and (max-width: 1180px) {
+  .not-desktop_small {
+    display: none; } }

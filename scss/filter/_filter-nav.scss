@@ -15,7 +15,7 @@
 		.filter-nav__title{
 			color: #ef5b70;
 			&:after{
-				background: url("../img/filter_ico_red.svg");
+				background: center / cover no-repeat url("../img/filter_ico_red.svg");
 			}
 		}
 	}
