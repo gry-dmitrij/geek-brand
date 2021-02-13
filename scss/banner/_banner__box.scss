@@ -36,3 +36,9 @@
 		padding: 24px 20px 46px;
 	}
 }
+
+.banner__box_no-breadcrumb{
+	@media (max-width: 600px) {
+		padding-bottom: 24px;
+	}
+}

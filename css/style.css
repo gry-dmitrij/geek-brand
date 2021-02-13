@@ -272,7 +272,12 @@
       margin-bottom: 20px; } }
 
 .banner_mini {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  min-height: 148px; }
+  @media (max-width: 600px) {
+    .banner_mini {
+      display: flex;
+      align-items: center; } }
 
 .banner__box {
   display: flex;
@@ -309,6 +314,10 @@
       flex-flow: column;
       padding: 24px 20px 46px; } }
 
+@media (max-width: 600px) {
+  .banner__box_no-breadcrumb {
+    padding-bottom: 24px; } }
+
 .banner__img {
   width: 100%;
   height: 100%;
@@ -327,9 +336,6 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #f16d7f; }
-  @media (max-width: 600px) {
-    .banner__title {
-      margin-bottom: 32px; } }
 
 .banner__txt-decoration {
   padding-left: 16px;
@@ -400,6 +406,9 @@
       display: none; }
     .breadcrumb-box :last-child a:hover {
       color: #fda973; }
+  @media (max-width: 600px) {
+    .breadcrumb-box {
+      margin-top: 32px; } }
 
 .filter-box {
   display: flex;
@@ -1250,6 +1259,17 @@ button.filter__item {
   justify-content: space-between;
   align-items: flex-start;
   padding: 64px 20px 96px; }
+  @media (max-width: 1180px) {
+    .registration-box {
+      padding-top: 40px; } }
+  @media (max-width: 600px) {
+    .registration-box {
+      flex-flow: column;
+      padding: 40px 8px 100px;
+      align-items: center; } }
+  @media (max-width: 480px) {
+    .registration-box {
+      align-items: flex-start; } }
 
 .form-box {
   display: flex;
@@ -1375,12 +1395,24 @@ input.form-edt_cap::placeholder {
 .info-box {
   width: 58%;
   margin: 0 0 0 22px; }
+  @media (max-width: 600px) {
+    .info-box {
+      width: 100%;
+      max-width: 360px;
+      margin: 0; } }
+  @media (max-width: 480px) {
+    .info-box {
+      max-width: 100%; } }
 
 .info-box * {
   font-size: 24px;
   line-height: 29px;
   font-weight: 300;
   color: #000; }
+  @media (max-width: 1180px) {
+    .info-box * {
+      font-size: 16px;
+      line-height: 19px; } }
 
 .info-box__caption {
   text-transform: uppercase;
