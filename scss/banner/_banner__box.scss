@@ -12,6 +12,9 @@
 		display: block;
 		padding: 33.5% 0;
 	}
+	@media (max-width: 768px) {
+		align-items: center;
+	}
 	@media (max-width: 600px) {
 		background-image: none;
 		justify-content: center;

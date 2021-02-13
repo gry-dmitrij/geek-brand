@@ -287,6 +287,9 @@
     content: '';
     display: block;
     padding: 33.5% 0; }
+  @media (max-width: 768px) {
+    .banner__box {
+      align-items: center; } }
   @media (max-width: 600px) {
     .banner__box {
       background-image: none;
@@ -341,7 +344,8 @@
   .banner__txt-decoration {
     width: auto;
     right: 34px;
-    min-width: 300px; } }
+    min-width: 300px;
+    position: relative; } }
 @media (max-width: 600px) {
   .banner__txt-decoration {
     position: relative;
