@@ -1,6 +1,9 @@
 .banner{
 	background: #f1e4e6;
-    margin-bottom: 65px;
+    margin: 0 0 65px 0;
+    @media (max-width: 768px) {
+    	margin-bottom: 20px;
+    }
 }
 .banner_mini{
 	margin-bottom: 0;
