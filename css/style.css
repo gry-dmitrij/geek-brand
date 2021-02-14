@@ -620,7 +620,8 @@ button.filter__item {
   position: relative;
   padding: 11px 0 42px;
   background: #f7f7f7;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); }
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  min-height: 624px; }
   @media (max-width: 768px) {
     .product__banner-box {
       padding: 30px 0;
@@ -647,6 +648,12 @@ button.filter__item {
 .product__banner-btn_prev {
   left: 0;
   background-image: url("../img/prev_btn.svg"); }
+
+@media (max-width: 600px) {
+  .product__banner-img {
+    max-width: 490px;
+    width: 100%;
+    height: auto; } }
 
 .product-box {
   display: flex;
